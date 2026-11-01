@@ -3,6 +3,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "LangGraph Dev",
             "type": "debugpy",
             "request": "launch",

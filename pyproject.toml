@@ -1,5 +1,5 @@
 [project]
-name = "langchain-beyond-basics"
+name = "langchain-langgraph-beyond-basics"
 version = "0.1.0"
 description = "Practical intermediate and advanced examples for building with LangChain and LangGraph. Explore agents, workflows, human-in-the-loop, memory, streaming, and more."
 readme = "README.md"

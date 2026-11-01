@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "supervisor_hitl": "./supervisor_hitl/app.py:compiled_state_graph"
+    "checkpoint_time_travel": "./checkpoint_time_travel/app.py:compiled_state_graph"
   },
   "env": ".env"
 }
